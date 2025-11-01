@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDTech - Your Learning Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>EDTech</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#roadmaps">Roadmaps</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Your Personalized Learning Roadmap</h1>
+            <p>Discover clear paths to achieve your career goals with free resources and structured guidance.</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search for career paths (e.g., 'Frontend Developer', 'Civil Services')">
+                <button><i class="fas fa-search"></i> Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Explore Career Paths</h2>
+                <p>Select your desired career field to see a detailed roadmap and free learning resources</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card" data-career="frontend">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Frontend Development">
+                    </div>
+                    <div class="category-content">
+                        <h3>Frontend Developer</h3>
+                        <p>Learn how to build beautiful, interactive user interfaces for websites and web applications.</p>
+                        <a href="#" class="btn view-roadmap">View Roadmap</a>
+                    </div>
+                </div>
+                <div class="category-card" data-career="backend">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Backend Development">
+                    </div>
+                    <div class="category-content">
+                        <h3>Backend Developer</h3>
+                        <p>Master server-side programming, databases, and APIs to power web applications.</p>
+                        <a href="#" class="btn view-roadmap">View Roadmap</a>
+                    </div>
+                </div>
+                <div class="category-card" data-career="software">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Software Engineering">
+                    </div>
+                    <div class="category-content">
+                        <h3>Software Engineer</h3>
+                        <p>Comprehensive guide to becoming a full-fledged software engineer.</p>
+                        <a href="#" class="btn view-roadmap">View Roadmap</a>
+                    </div>
+                </div>
+                <div class="category-card" data-career="civil">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Civil Services">
+                    </div>
+                    <div class="category-content">
+                        <h3>Civil Services</h3>
+                        <p>Roadmap to crack UPSC and other civil service examinations.</p>
+                        <a href="#" class="btn view-roadmap">View Roadmap</a>
+                    </div>
+                </div>
+                <div class="category-card" data-career="banking">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Banking">
+                    </div>
+                    <div class="category-content">
+                        <h3>Banking Professional</h3>
+                        <p>Path to becoming a bank manager or other banking roles.</p>
+                        <a href="#" class="btn view-roadmap">View Roadmap</a>
+                    </div>
+                </div>
+                <div class="category-card" data-career="teaching">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Teaching">
+                    </div>
+                    <div class="category-content">
+                        <h3>Teaching Profession</h3>
+                        <p>How to become a qualified teacher at different educational levels.</p>
+                        <a href="#" class="btn view-roadmap">View Roadmap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap-section" id="roadmaps">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Roadmap</h2>
+                <p>Here's an example of what our detailed roadmaps look like</p>
+            </div>
+            <div class="roadmap-container">
+                <div class="roadmap">
+                    <div class="roadmap-item">
+                        <h3>Frontend Development Fundamentals</h3>
+                        <p>Start with the basics of HTML, CSS, and JavaScript. These are the building blocks of all web development.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp - Responsive Web Design Certification</a></li>
+                                <li><a href="https://www.theodinproject.com/paths/foundations/courses/foundations" target="_blank">The Odin Project - Foundations</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">MDN Web Docs - Learn Web Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>Advanced CSS and Responsive Design</h3>
+                        <p>Learn CSS frameworks like Bootstrap, Flexbox, Grid, and how to make websites responsive.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks - Complete Guide to Flexbox</a></li>
+                                <li><a href="https://scrimba.com/learn/bootstrap" target="_blank">Scrimba - Learn Bootstrap</a></li>
+                                <li><a href="https://www.internetingishard.com/" target="_blank">Interneting Is Hard - HTML & CSS Tutorials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>JavaScript Deep Dive</h3>
+                        <p>Master JavaScript concepts like ES6+, DOM manipulation, async programming, and APIs.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://javascript.info/" target="_blank">The Modern JavaScript Tutorial</a></li>
+                                <li><a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript (Free Book)</a></li>
+                                <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">freeCodeCamp - JavaScript Algorithms and Data Structures</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>Frontend Frameworks</h3>
+                        <p>Learn popular frameworks like React, Vue, or Angular to build modern web applications.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">React Official Tutorial</a></li>
+                                <li><a href="https://scrimba.com/learn/learnreact" target="_blank">Scrimba - Learn React for Free</a></li>
+                                <li><a href="https://vuejs.org/tutorial/" target="_blank">Vue.js Interactive Tutorial</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About EDTech</h3>
+                    <p>EDTech provides structured learning roadmaps and free resources to help students achieve their career goals.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Career Paths</a></li>
+                        <li><a href="#roadmaps">Roadmaps</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Popular Roadmaps</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="view-roadmap" data-career="frontend">Frontend Developer</a></li>
+                        <li><a href="#" class="view-roadmap" data-career="backend">Backend Developer</a></li>
+                        <li><a href="#" class="view-roadmap" data-career="software">Software Engineer</a></li>
+                        <li><a href="#" class="view-roadmap" data-career="civil">Civil Services</a></li>
+                        <li><a href="#" class="view-roadmap" data-career="banking">Banking Professional</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> contact@edtech.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, Learning City, 10101</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EDTech. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #ff4757;"></i> for students</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Roadmap Modal -->
+    <div class="modal" id="roadmapModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Frontend Developer Roadmap</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="roadmap">
+                    <div class="roadmap-item">
+                        <h3>Fundamentals</h3>
+                        <p>Start with HTML, CSS, and basic JavaScript. Learn how to structure web pages and add basic styling and interactivity.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp - Responsive Web Design</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">MDN Web Docs - Learn Web Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>Advanced CSS</h3>
+                        <p>Master CSS Flexbox, Grid, animations, and preprocessors like SASS. Learn responsive design principles.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks - Flexbox Guide</a></li>
+                                <li><a href="https://scrimba.com/learn/cssgrid" target="_blank">Scrimba - CSS Grid</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>JavaScript Deep Dive</h3>
+                        <p>Learn modern JavaScript (ES6+), DOM manipulation, asynchronous programming, and APIs.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://javascript.info/" target="_blank">The Modern JavaScript Tutorial</a></li>
+                                <li><a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>Frontend Frameworks</h3>
+                        <p>Choose a framework like React, Vue, or Angular and learn component-based architecture.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">React Official Tutorial</a></li>
+                                <li><a href="https://vuejs.org/tutorial/" target="_blank">Vue.js Tutorial</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h3>Build Projects</h3>
+                        <p>Apply your knowledge by building real-world projects to showcase in your portfolio.</p>
+                        <div class="resources">
+                            <h4>Free Resources:</h4>
+                            <ul class="resource-list">
+                                <li><a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor Challenges</a></li>
+                                <li><a href="https://devchallenges.io/" target="_blank">DevChallenges</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
